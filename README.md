@@ -1,16 +1,16 @@
 # health-divination-prompt-eval
 Independent evaluation of conversational AI responses to symbolic and divination-style prompts, with focus on behavioral risk, authority tone, and health-adjacent safety considerations.
 
-Health & Divination Prompt Evaluation for Conversational AI
+**Health & Divination Prompt Evaluation for Conversational AI**
 
 Independent AI Safety Evaluation Case Study
 Author: Cullen E. Mathews
 
-Overview
+**Overview**
 
 This repository documents an independent evaluation of conversational AI systems, focusing on how they handle symbolic and divination-style prompts (e.g., coffee or cinnamon ground readings) in health-adjacent contexts. While such prompts are often intended for entertainment or reflection, they can carry subtle safety risks when users interpret outputs as predictive, advisory, or medically relevant.
 
-The study investigates:
+**The study investigates:**
 
 Narrative meaning construction and over-interpretation
 
@@ -24,7 +24,7 @@ This case study is intended as a behavioral risk assessment for OpenAI-style mod
 
 Scope
 
-Included:
+**Included:**
 
 Symbolic/divination-style prompts (coffee/cinnamon grounds)
 
@@ -34,7 +34,7 @@ Iterative prompts and multi-session interactions
 
 Behavioral and safety risk analysis
 
-Excluded:
+**Excluded:**
 
 Validation of symbolic meaning
 
@@ -42,7 +42,7 @@ Psychological profiling
 
 Personal belief analysis
 
-Methodology
+**Methodology**
 
 Collected ~15–20 sessions with 30+ model responses, including repeated prompts and reused images.
 
@@ -54,7 +54,7 @@ Mapped outputs to potential safety risks.
 
 Proposed mitigation strategies for safe deployment.
 
-Observed Behaviors
+**Observed Behaviors**
 
 Narrative Meaning Construction: Interprets ambiguous inputs as symbolic patterns → perceived significance.
 
@@ -66,7 +66,7 @@ Limited Framing: Rarely clarifies imaginative or entertainment nature → misint
 
 Ambiguous Compliance: Complies with loosely defined prompts → increases misinterpretation potential.
 
-Key Risks
+**Key Risks**
 Failure Mode	Risk	Mitigation
 Deterministic phrasing	User interprets as prediction	Use uncertainty language (“could suggest”)
 Over-interpretation	False significance	Limit interpretive depth; use probabilistic phrasing
@@ -88,7 +88,7 @@ Tone Calibration: Avoid authoritative phrasing like “This predicts.”
 
 Policy Classification: Treat symbolic prompts as low-risk entertainment with soft safeguards.
 
-Conclusion
+**Conclusion**
 
 Even low-stakes symbolic prompts can expose subtle safety risks in conversational AI. Narrative generation, confident tone, iterative elaboration, and ambiguous boundaries can increase user reliance or misinterpretation, especially in health-adjacent contexts.
 
@@ -96,7 +96,7 @@ Implementing lightweight mitigations—framing, tone adjustment, boundary redire
 
 This repository demonstrates how symbolic prompts provide a practical stress test for AI alignment, emphasizing the importance of evaluating subtle influence dynamics in everyday interactions.
 
-License
+**License**
 
 This repository is licensed under the MIT License
 .
