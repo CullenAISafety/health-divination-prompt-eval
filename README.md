@@ -22,9 +22,9 @@ Iterative escalation and user reliance risks
 
 This case study is intended as a behavioral risk assessment for OpenAI-style models, highlighting soft alignment concerns in everyday interactions.
 
-Scope
+**Scope**
 
-**Included:**
+Included:
 
 Symbolic/divination-style prompts (coffee/cinnamon grounds)
 
