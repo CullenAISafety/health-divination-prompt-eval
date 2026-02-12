@@ -1,102 +1,151 @@
-# health-divination-prompt-eval
-Independent evaluation of conversational AI responses to symbolic and divination-style prompts, with focus on behavioral risk, authority tone, and health-adjacent safety considerations.
 
-**Health & Divination Prompt Evaluation for Conversational AI**
+Symbolic Prompt Reinforcement in Large Language Models
+Behavioral Alignment Evaluation of Health-Adjacent Interpretive Interactions
 
-Independent AI Safety Evaluation Case Study
 Author: Cullen E. Mathews
+Independent AI Safety & Evaluation Research
 
 **Overview**
 
-This repository documents an independent evaluation of conversational AI systems, focusing on how they handle symbolic and divination-style prompts (e.g., coffee or cinnamon ground readings) in health-adjacent contexts. While such prompts are often intended for entertainment or reflection, they can carry subtle safety risks when users interpret outputs as predictive, advisory, or medically relevant.
+This repository presents a structured behavioral alignment analysis of large language model (LLM) responses to symbolic and interpretive prompts over longitudinal interaction sessions.
 
-**The study investigates:**
+The focus of this project is not symbolic validation or predictive interpretation. Instead, it examines whether repeated engagement in meaning-seeking or divinatory-style prompts may introduce:
 
-Narrative meaning construction and over-interpretation
+Narrative reinforcement dynamics
 
-Authority tone and confident language
+Emotional affirmation drift
 
-Boundary blurring with health, finance, or personal decision contexts
+Belief scaffolding risks
 
-Iterative escalation and user reliance risks
+Health-adjacent influence patterns
 
-This case study is intended as a behavioral risk assessment for OpenAI-style models, highlighting soft alignment concerns in everyday interactions.
+Longitudinal behavioral consistency shifts
 
-**Scope**
+This work frames symbolic interaction as an alignment-relevant domain requiring structured evaluation.
 
-Included:
+Research Objective
 
-Symbolic/divination-style prompts (coffee/cinnamon grounds)
+To evaluate whether repeated symbolic prompt interactions produce measurable patterns of:
 
-Text and image-based interpretations
+Progressive narrative continuity
 
-Iterative prompts and multi-session interactions
+Future-oriented reinforcement framing
 
-Behavioral and safety risk analysis
+Emotional validation escalation
 
-**Excluded:**
+Reduced epistemic distancing over time
 
-Validation of symbolic meaning
+The project introduces a qualitative Reinforcement Index framework and structured threat model for belief-adjacent model behavior.
 
-Psychological profiling
+Repository Structure
 
-Personal belief analysis
+This project is organized in three layers:
 
-**Methodology**
+1. Research_Brief_Main.pdf
 
-Collected ~15–20 sessions with 30+ model responses, including repeated prompts and reused images.
+Primary alignment research paper (8 pages)
 
-Observed model behavior, phrasing, and tone.
+Includes:
 
-Identified recurring patterns and failure modes.
+Executive Summary
 
-Mapped outputs to potential safety risks.
+Problem Statement
 
-Proposed mitigation strategies for safe deployment.
+Threat Model
 
-**Observed Behaviors**
+Methodology
 
-Narrative Meaning Construction: Interprets ambiguous inputs as symbolic patterns → perceived significance.
+Observed Behavioral Patterns
 
-Iterative Expansion: Elaborates when prompted → escalates perceived authority.
+Risk Analysis
 
-Confident Language: Assertive phrasing can be interpreted as predictive.
-
-Limited Framing: Rarely clarifies imaginative or entertainment nature → misinterpretation risk.
-
-Ambiguous Compliance: Complies with loosely defined prompts → increases misinterpretation potential.
-
-**Key Risks**
-Failure Mode	Risk	Mitigation
-Deterministic phrasing	User interprets as prediction	Use uncertainty language (“could suggest”)
-Over-interpretation	False significance	Limit interpretive depth; use probabilistic phrasing
-Health boundary blur	Misguided health decisions	Redirect to qualified professionals
-Authority bias	Over-reliance	Softer, reflective tone
-Escalation loop	Reinforced belief	Cap iterative depth
-Entertainment ambiguity	Misclassification	Explicit creative framing
 Mitigation Recommendations
 
-Explicit Framing: Preface outputs as reflective or entertainment-based.
+Limitations and Future Research
 
-Uncertainty Language: Replace deterministic phrasing with probabilistic or symbolic language.
+This document represents the formal submission-ready alignment analysis.
 
-Boundary Detection: Redirect health, finance, or legal inquiries to professionals.
+2. Behavioral_Risk_Assessment.pdf
 
-Iteration Limits: Summarize instead of escalating after repeated prompts.
+Technical supplement
 
-Tone Calibration: Avoid authoritative phrasing like “This predicts.”
+Contains:
 
-Policy Classification: Treat symbolic prompts as low-risk entertainment with soft safeguards.
+Structured risk matrices
 
-**Conclusion**
+Hazard categorization
 
-Even low-stakes symbolic prompts can expose subtle safety risks in conversational AI. Narrative generation, confident tone, iterative elaboration, and ambiguous boundaries can increase user reliance or misinterpretation, especially in health-adjacent contexts.
+Reinforcement scoring framework
 
-Implementing lightweight mitigations—framing, tone adjustment, boundary redirects, and iteration control—significantly reduces risk while preserving user experience.
+Vulnerability archetype modeling
 
-This repository demonstrates how symbolic prompts provide a practical stress test for AI alignment, emphasizing the importance of evaluating subtle influence dynamics in everyday interactions.
+Health-adjacent escalation pathways
 
-**License**
+This section formalizes the safety evaluation logic.
 
-This repository is licensed under the MIT License
-.
+3. Appendix_Longitudinal_Log.pdf
+
+Supplemental evidence archive
+
+Contains:
+
+Chronological interaction documentation
+
+Raw symbolic prompt-response sequences
+
+Observational annotations
+
+This archive supports transparency and reproducibility of qualitative analysis.
+
+Note: Interpretive outputs are analyzed strictly for behavioral reinforcement dynamics and are not presented as predictive or diagnostic evidence.
+
+Alignment Focus Areas
+
+This project contributes to emerging safety discussions around:
+
+Cognitive reinforcement dynamics
+
+Anthropomorphization risk
+
+Narrative continuity in LLMs
+
+Dependency loop formation
+
+Health-adjacent prompt handling
+
+Long-horizon behavioral evaluation
+
+The analysis emphasizes system-level behavior rather than isolated output compliance.
+
+Methodological Notes
+
+Longitudinal single-user case study
+
+No internal model weight access
+
+Behavioral analysis only
+
+Qualitative scoring framework
+
+Structured threat modeling
+
+Future work includes multi-user replication and cross-model comparison.
+
+
+**Why This Matters**
+
+As LLMs expand into reflective, emotionally resonant, and identity-adjacent domains, subtle reinforcement mechanisms may emerge that are not captured by single-turn safety testing.
+
+This repository explores symbolic interpretive engagement as a potential alignment frontier requiring structured monitoring and mitigation design.
+
+Intended Audience
+
+AI Safety Researchers
+
+Alignment Engineers
+
+Model Evaluation Teams
+
+Red Team Contributors
+
+Health-Adjacent LLM Deployment Teams
