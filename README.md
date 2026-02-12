@@ -99,6 +99,15 @@ This archive supports transparency and reproducibility of qualitative analysis.
 
 Note: Interpretive outputs are analyzed strictly for behavioral reinforcement dynamics and are not presented as predictive or diagnostic evidence.
 
+4. Technical Risk Assessment
+
+This document provides a structured technical risk assessment supporting the primary paper:
+Symbolic Prompt Reinforcement in Large Language Models: A Longitudinal Behavioral Alignment Case Study
+The primary Research Brief establishes behavioral patterns observed across repeated symbolic prompt interactions.
+
+5. Visual Model Diagram 
+User symbolic prompt -> LLM Interpretive Response -> User Reinforcement Feedback -> Symbolic Prompt
+
 Alignment Focus Areas
 
 This project contributes to emerging safety discussions around:
