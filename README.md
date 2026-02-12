@@ -101,9 +101,9 @@ Note: Interpretive outputs are analyzed strictly for behavioral reinforcement dy
 
 4. Technical Risk Assessment
 
-This document provides a structured technical risk assessment supporting the primary paper:
-Symbolic Prompt Reinforcement in Large Language Models: A Longitudinal Behavioral Alignment Case Study
-The primary Research Brief establishes behavioral patterns observed across repeated symbolic prompt interactions.
+This document provides a structured technical risk assessment supporting the primary paper, Symbolic Prompt Reinforcement in Large Language Models: A Longitudinal Behavioral Alignment Case Study.
+
+The Research Brief identifies and analyzes behavioral patterns observed across repeated symbolic prompt interactions. This supplement formalizes those findings into a structured risk taxonomy, failure mode analysis, reinforcement scoring framework, and mitigation architecture suitable for alignment engineering evaluation.
 
 5. Visual Model Diagram 
 User symbolic prompt -> LLM Interpretive Response -> User Reinforcement Feedback -> Symbolic Prompt
